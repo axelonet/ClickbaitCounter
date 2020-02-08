@@ -10,7 +10,7 @@ Instead of making the algorithm search Google for faces, what I am thinking for 
 Find occurences of these faces from the unknown's folder already created. Then later on if I recognise and change the file-name of the person to his name, the algorithm from that point forward can name him with his name. 
 
 Use this link to get Thumbnails:
-https://img.youtube.com/vi/<insert-youtube-video-id-here>/hqdefault.jpg
+https://img.youtube.com/vi/(insert-youtube-video-id-here)/hqdefault.jpg
 
 Philip DeFranco YouTube Channel ID: UClFSU9_bUb4Rc6OYfTt5SPw
 
