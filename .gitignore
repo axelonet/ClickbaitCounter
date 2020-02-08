@@ -1,0 +1,6 @@
+.DS_Store
+Thumbnails/*
+results/*
+Face Recognition Sample/*
+API requests/*
+face_recognition/*
