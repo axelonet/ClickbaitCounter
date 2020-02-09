@@ -17,15 +17,21 @@ location = face_recognition.face_locations(images)
 print(location)
 # For Cropping the faces
 image = Image.open(string)
-width, height = image.size
+
 coordinates = []
 
 # Converts (top, right, bottom, left) to (left, top, right, bottom)
-for i in range(len(location)):
-    coordinates.append((location[i][3], location[i][0],
-                        location[i][1], location[i][2]))
+# for i in range(len(location)):
+#     coordinates.append((location[i][3], location[i][0],
+#                         location[i][1], location[i][2]))
 
-image = image.crop(coordinates[0])
+
+def Convert(top, right, bottom, left):
+    return (left, top, right, bottom)
+
+
+image = image.crop((location[0][3], location[0][0],
+                    location[0][1], location[0][2]))
 # image = image.crop((0, 0, 160, 360)) #face-1
 # image = image.crop((160, 0, 320, 360))  # face-2
 # image = image.crop((320, 0, 480, 360))  # face-3
