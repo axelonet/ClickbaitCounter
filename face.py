@@ -15,7 +15,6 @@ if '.DS_Store' in files:
 
 images = [face_recognition.load_image_file(mypath + "/" + i) for i in files]
 
-
 # I would have to remember which encoding belongs to which face.
 face_data = []
 face_positions = []

@@ -1,0 +1,57 @@
+{
+    "kind": "youtube#channelListResponse",
+    "etag": "\"Fznwjl6JEQdo1MGvHOGaz_YanRU/F-BB5V5PVa6_o3guzCUC8q08RJE\"",
+    "pageInfo": {
+        "totalResults": 1,
+        "resultsPerPage": 1
+    },
+    "items": [{
+        "kind": "youtube#channel",
+        "etag": "\"Fznwjl6JEQdo1MGvHOGaz_YanRU/nK6rkEOMS57IvwMlw4nlIjFfIUk\"",
+        "id": "UClFSU9_bUb4Rc6OYfTt5SPw",
+        "snippet": {
+            "title": "Philip DeFranco",
+            "description": "A 5 day a week, daily show where I talk about the news and pop culture that matters to me and should matter to you.",
+            "customUrl": "philipdefranco",
+            "publishedAt": "2006-09-16T02:14:15.000Z",
+            "thumbnails": {
+                "default": {
+                    "url": "https://yt3.ggpht.com/a/AGF-l7-EwD6j7bwgcGeMJLuuBgzsqWqV0rhSTXcH7w=s88-c-k-c0xffffffff-no-rj-mo",
+                    "width": 88,
+                    "height": 88
+                },
+                "medium": {
+                    "url": "https://yt3.ggpht.com/a/AGF-l7-EwD6j7bwgcGeMJLuuBgzsqWqV0rhSTXcH7w=s240-c-k-c0xffffffff-no-rj-mo",
+                    "width": 240,
+                    "height": 240
+                },
+                "high": {
+                    "url": "https://yt3.ggpht.com/a/AGF-l7-EwD6j7bwgcGeMJLuuBgzsqWqV0rhSTXcH7w=s800-c-k-c0xffffffff-no-rj-mo",
+                    "width": 800,
+                    "height": 800
+                }
+            },
+            "localized": {
+                "title": "Philip DeFranco",
+                "description": "A 5 day a week, daily show where I talk about the news and pop culture that matters to me and should matter to you."
+            },
+            "country": "US"
+        },
+        "contentDetails": {
+            "relatedPlaylists": {
+                "likes": "LLlFSU9_bUb4Rc6OYfTt5SPw",
+                "favorites": "FLlFSU9_bUb4Rc6OYfTt5SPw",
+                "uploads": "UUlFSU9_bUb4Rc6OYfTt5SPw",
+                "watchHistory": "HL",
+                "watchLater": "WL"
+            }
+        },
+        "statistics": {
+            "viewCount": "2807942164",
+            "commentCount": "0",
+            "subscriberCount": "6400000",
+            "hiddenSubscriberCount": false,
+            "videoCount": "2687"
+        }
+    }]
+}

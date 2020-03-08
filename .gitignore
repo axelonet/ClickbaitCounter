@@ -1,8 +1,7 @@
+__pycache__
+venv
+results
 .DS_Store
-Thumbnails/*
-results/*
-Face Recognition Sample/*
-API requests/*
-face_recognition/*
-gitignore/*
-gitignore/results-old/*
+Thumbnails
+gitignore
+Face Recognition Sample
