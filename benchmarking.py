@@ -24,10 +24,8 @@ if '.DS_Store' in files:
 
 # images2 = [load_image(mypath + i) for i in files]
 
-images2 = [load_image.delay(mypath + i) for i in files]
-
+# images2 = [load_image.delay(mypath + i) for i in files]
 elapsed = time.time()
-pdb.set_trace()
 print('time elapsed: %.2f sec' % (elapsed - start))
 
 # time elapsed: 6.42 sec

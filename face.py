@@ -5,9 +5,11 @@ import pdb
 from os import listdir
 from os.path import isfile, join
 from PIL import Image
+import time
 
 mypath = "Thumbnails/"
 files = [f for f in listdir(mypath) if isfile(join(mypath, f))]
+start = time.time()
 
 files.sort()
 if '.DS_Store' in files:
@@ -80,3 +82,6 @@ for i in range(1, len(face_data)):
             string = string + "/" + files[i]
             tempImage.save(string)
         results = []
+
+elapsed = time.time()
+print('time elapsed: %.2f sec' % (elapsed - start))
